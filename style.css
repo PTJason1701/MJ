@@ -39,10 +39,8 @@ body::-webkit-scrollbar {
     /* justify-content: space-around; */
 }
 
-#header .navbar li {
-    display: flex;
-}
 #header .navbar .nav_e {
+    display: flex;
     width: 100%;
     list-style-type: none;
     padding: 10px;
