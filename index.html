@@ -4,7 +4,8 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="style.css" />
-        <title>THE WHITENIGGA</title>
+        <script type="module" src="js/script.js"></script>
+        <title>KING OF POP</title>
     </head>
 
     <body>
@@ -18,13 +19,14 @@
                             <a href="#text_bio"> BIOGRAPHY </a>
                         </li>
                         <li class="nav_e"><a href="#music"> MUSIC </a></li>
-                        <li class="nav_e"><a href="#"> GALLERY </a></li>
+                        <li class="nav_e"><a href="#gallery"> GALLERY </a></li>
                     </ul>
                 </div>
             </div>
             <div id="body">
                 <div id="bio">
                     <div class="banner">
+                        <h1>KING OF POP</h1>
                         <img src="public/heading/mj1.webp" alt="" />
                     </div>
                     <div class="content" id="text_bio">
@@ -55,19 +57,19 @@
                 </div>
                 <div id="music">
                     <div class="vid_menu">
-                        <a onclick="switchVideo('https://www.youtube-nocookie.com/embed/oRdxUFDoQe0')">
+                        <a dataURL="https://www.youtube-nocookie.com/embed/oRdxUFDoQe0">
                             <img src="public/music/beat-it.jpg" alt="" />
                         </a>
-                        <a onclick="switchVideo('https://www.youtube-nocookie.com/embed/Zi_XLOBDo_Y')">
+                        <a dataURL="https://www.youtube-nocookie.com/embed/Zi_XLOBDo_Y">
                             <img src="public/music/billie-jean.jpg" alt="" />
                         </a>
-                        <a onclick="switchVideo('https://www.youtube-nocookie.com/embed/h_D3VFfhvs4')">
+                        <a dataURL="https://www.youtube-nocookie.com/embed/h_D3VFfhvs4">
                             <img src="public/music/smooth-criminal.jpg" alt="" />
                         </a>
-                        <a onclick="switchVideo('https://www.youtube-nocookie.com/embed/dsUXAEzaC3Q')">
+                        <a dataURL="https://www.youtube-nocookie.com/embed/dsUXAEzaC3Q">
                             <img src="public/music/bad.jpg" alt="" />
                         </a>
-                        <a onclick="switchVideo('https://www.youtube-nocookie.com/embed/yUi_S6YWjZw')">
+                        <a dataURL="https://www.youtube-nocookie.com/embed/yUi_S6YWjZw">
                             <img src="public/music/dirty-diana.jpg" alt="" />
                         </a>
                     </div>
@@ -85,10 +87,46 @@
                         ></iframe>
                     </div>
                 </div>
-                <div id="gallery"></div>
+                <div id="gallery">
+                    <h1>Gallery of MJ Musical</h1>
+                    <div class="gallery-content">
+                        <div class="card">
+                            <img src="public/gallery/MJ-broadway-feat.jpg" alt="" />
+                        </div>
+                        <div class="card">
+                            <img src="public/gallery/MJ-jamaal-feat.jpg" alt="" />
+                        </div>
+                        <div class="card">
+                            <img src="public/gallery/MJ-romanbanks-feat.jpg" alt="" />
+                        </div>
+                        <div class="card">
+                            <img src="public/gallery/MJ-tour-with-roman-banks-feat.jpg" alt="" />
+                        </div>
+                        <div class="card">
+                            <img src="public/gallery/MJTheMusical_HAMBURG_2024.jpg" alt="" />
+                        </div>
+                        <div class="card">
+                            <img src="public/gallery/MJ-musical-1000-shows-feat.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="footer">
+                <!-- i dont know what to put in here -->
+                <p>© 2024 Your Website. All rights reserved.</p>
+                <div class="content">
+                    <div class="link">
+                        <a href="">
+                            <img src="public/icon/github.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="link">
+                        <a href="">
+                            <img src="public/icon/facebook.png" alt="" />
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
-
-        <script src="script.js"></script>
     </body>
 </html>
